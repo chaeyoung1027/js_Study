@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body{ margin:0%; }
+            #menu{
+                position: fixed;  /*위치고정*/
+                width:100%;
+                height:50px;
+                line-height: 50px;   /*글자위치*/
+                text-align: right;   /*오른쪽정렬*/
+                background-color: #ffcf21;
+            }
+            ul{
+                height:40px;
+                margin: 0%;
+                padding-right: 4%;
+            }
+            il{ padding-left: 4%; }
+            #menu ul li a{ display:block; }
+            a:link { color:black; }  /*클릭시 색깔*/
+            a:visited { color:black; }  /*클릭후 색깔*/
+            #logo{
+                position: fixed;  /*위치고정*/
+                left:0%;
+            }
+            a{text-decoration-line: none;}  /*링크밑줄x*/
+            a:active { color:#d3b239; }  /*클릭중 색깔*/
+         
+    table {
+        margin-top: 4%;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        border-top: 1px solid #444444;
+        border-collapse: collapse;
+  }
+  th, td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+  }
+  #num{
+      width: 5%;
+  }
+  #title{
+      text-align: left;
+  }
+  #day{
+      width: 10%;
+  }
+        th{
+            border-bottom: 1px solid rgb(180, 180, 180);
+        }
+
+        #uu{
+		float: left;
+        width: 90%;
+        margin-left: 5%;
+        
+        text-align: center;
+        color: #c7c7c7;
+		background-color: #f5f5f5;
+	}
+        </style>
+    </head>
+    <div id='menu'>
+        <ul>
+            <il id='logo'>logo</il>
+            <il><a href=#>JS 지원</a></il>
+            <il><a href=#>JS 스터디 프로젝트</a></il>
+            <il><a href=#>JS 동아리 활동</a></il>
+            <il><a href=#>Q&A</a></il>
+        </ul>
+    </div>
+    <br>
+
+<body>
+   
+    <table>
+        
+        <tr>
+            <th id="num">번호</th>
+            <th>제목</th>
+            <th id="day">작성일</th>
+        </tr>
+        <tr>
+           <th id="num">1번</th>
+           <th id="title">동아리 입부 신청</th>
+           <th id="day">2022/1/12</th>
+        </tr>
+        <tr>
+            <th id="num">2번</th>
+            <th id="title">지원 동기</th>
+            <th id="day">2022/1/12</th>
+         </tr>
+         <tr>
+            <th id="num">3번</th>
+            <th id="title">작업 수행</th>
+            <th id="day">2022/1/12</th>
+         </tr>
+         <tr>
+            <th id="num">4번</th>
+            <th id="title">어떤 프로젝트를 진행하나요?</th>
+            <th id="day">2022/1/12</th>
+         </tr>
+    </table>
+    <div id="uu">
+        질문 내용을 작성하세요. 빠른 답변을 원한다면 JS동아리 인스타 DM으로 연락 주세요.(500자)
+    </div>
+    
+</body>
+</html>
