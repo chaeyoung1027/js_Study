@@ -28,22 +28,11 @@ a:active { color:#d3b239; }  /*클릭중 색깔*/
 
 #all{
     width: 7%;
-    margin-top: 4.2%;
+    margin-top: 4%;
     margin-left: 5%;
     float: left;
-}
-#search{
-    margin-top: 4%;
+    font-size: 90%;
     margin-bottom: 1%;
-    width: 2.5%;
-    height: 2.5%;
-    text-align: center;
-    margin-left: 70%;
-    float: left;
-}
-#search2 {
-    margin-top: 4.6%;
-    float: left;    
 }
 #Q {
     margin-top: 1%;
@@ -53,9 +42,11 @@ a:active { color:#d3b239; }  /*클릭중 색깔*/
     border-top: 1px solid #444444;
     border-collapse: collapse;
 }
-th, td {
-    border-bottom: 1px solid #444444;
-    padding: 10px;
+th, tr {
+    font-weight: 100;
+    border-bottom:#444444;
+    padding: 1%;
+    border-bottom: 1px solid rgb(180, 180, 180);
 }
 #num{
     width: 5%;
@@ -66,10 +57,14 @@ th, td {
 #day{
     width: 10%;
 }
-th{
-    border-bottom: 1px solid rgb(180, 180, 180);
-}
-
 #nu{
     text-align: center;
+}
+#m{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-bottom: 5%;
 }
