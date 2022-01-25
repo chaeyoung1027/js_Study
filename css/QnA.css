@@ -21,46 +21,55 @@ a:visited { color:black; }  /*클릭후 색깔*/
     position: fixed;  /*위치고정*/
     left:0%;
 }
+
 a{text-decoration-line: none;}  /*링크밑줄x*/
 a:active { color:#d3b239; }  /*클릭중 색깔*/
 
 
 #all{
-    margin-top: 4%;
+    width: 7%;
+    margin-top: 4.2%;
     margin-left: 5%;
+    float: left;
 }
 #search{
-    margin-top: 1%;
+    margin-top: 4%;
+    margin-bottom: 1%;
     width: 2.5%;
     height: 2.5%;
     text-align: center;
-    margin-left: 83%;
+    margin-left: 70%;
+    float: left;
+}
+#search2 {
+    margin-top: 4.6%;
+    float: left;    
 }
 #Q {
     margin-top: 1%;
-        width: 90%;
-        margin-right: 5%;
-        margin-left: 5%;
-        border-top: 1px solid #444444;
-        border-collapse: collapse;
-  }
-  th, td {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+}
+th, td {
     border-bottom: 1px solid #444444;
     padding: 10px;
-  }
-  #num{
-      width: 5%;
-  }
-  #title{
-      text-align: left;
-  }
-  #day{
-      width: 10%;
-  }
-        th{
-            border-bottom: 1px solid rgb(180, 180, 180);
-        }
+}
+#num{
+    width: 5%;
+}
+#title{
+    text-align: left;
+}
+#day{
+    width: 10%;
+}
+th{
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
 
-    #nu{
-        text-align: center;
-    }
+#nu{
+    text-align: center;
+}
